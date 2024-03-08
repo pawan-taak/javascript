@@ -92,23 +92,23 @@ y = 50;
 
 // let res= x<=50 && y>=50
 
-let res = x <= 40 || y != 50
-
-console.log(res);
+// let res = x <= 40 || y != 50
 
 // console.log(res);
 
-let status = true
+// console.log(res);
 
-console.log(!status);
+// let status = true
+
+// console.log(!status);
 
 
-const xyz = 40;
-{
-    const xyz = 50
-    console.log(xyz);
-}
-console.log(xyz);
+// const xyz = 40;
+// {
+//     const xyz = 50
+//     console.log(xyz);
+// }
+// console.log(xyz);
 
 /**
  * conditional statements
@@ -117,33 +117,21 @@ console.log(xyz);
 
 // x= prompt("enter a number")
 
-if (x > 0) {
-    alert("Number is +ve")
-}
-else if (x == 0) {
-    alert("Number is zero")
-}
-else {
-    alert("Number is -ve")
-}
+// if (x > 0) {
+//     alert("Number is +ve")
+// }
+// else if (x == 0) {
+//     alert("Number is zero")
+// }
+// else {
+//     alert("Number is -ve")
+// }
 
 // console.log(x);
 // // alert("Alert!! Battery Low")
 // confirm("Are you Sure")
 
-age = 18;
-let country = "India"
-if (country === "India") {
-    if (age == 18) {
-        alert("You are elligible")
-    }
-    else {
-        alert("you are under age")
-    }
-}
-else {
-    alert("You are not elligible for driving")
-}
+// s
 
 
 /**
@@ -184,6 +172,70 @@ else{
  * }
  * else{
  * }
+ * 
+ * 
+ */
+
+
+/**
+ * switch
+ */
+
+// let day="hgfjsdgjh"
+
+// switch(day){
+// case 1:alert("It's Monday")
+//         break;
+// case 2:alert("It's Tuesday")
+//         break;
+// case 3:alert("It's Wed")
+//         break;
+// case 4:alert("It's Thru")
+//         break;
+// case 5:alert("It's Fri")
+//         break;
+// case 6:alert("It's Sat")
+//         break;
+// case 7:alert("It's Sun")
+//         break;
+//  default:  alert("enter correct value")       
+// }
+
+/**
+ * loops
+ */
+
+
+for(let i=0;i<50;i++){
+    console.log("Sakshi");
+
+}
+
+// let i=1;
+// 1<50
+ arr=["Sakshi","Sunil","Sunny","Amit"]
+
+ console.log(arr[4]);
+
+//  console.log(arr.length);
+
+// for(i=0;i<arr.length;i++){
+//     console.log(arr[i]);
+// }
+
+
+for(i=arr.length-1;i>=0;i--){
+    console.log(arr[i]);
+
+}
+
+/**
+ * print count 1 to 100
+ * count 100 to 1
+ * table of nuymber taken from prompt
+ * arr=[2,4,3,5,6,7,1,23]
+ * iterate/loop on array and find even number
+ * 
  * 
  * 
  */
